@@ -1,0 +1,40 @@
+body{
+    font-size:30px;
+}
+
+main{
+    font-family: monospace;
+}
+button,input,textarea,select{
+    font:inherit;
+}
+
+p{
+    color: purple;
+}
+/* !important is not recommended */
+/* class selector */
+.gray{
+    color:gray;
+}
+/* id selector using this tag is not recommend*/
+#second{
+    font-style: italic;
+}
+
+/* tag within a tag */
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+/* universal selector */
+/* *{
+    border:1px solid red;
+    font-family: monospace;
+} */
+
+/* CSS = Cascading Stylesheet. work from top to down. */
+    /* class selector is much recommended than element selector */
+    /* inheritance : will only be inherited color, line highe , alginement, typography*/
+
+/* DRY dont repeat yourself */
